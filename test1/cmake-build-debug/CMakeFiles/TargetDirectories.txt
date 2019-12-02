@@ -1,0 +1,3 @@
+C:/Users/damia/OneDrive/Pulpit/TEP/test1/cmake-build-debug/CMakeFiles/test1.dir
+C:/Users/damia/OneDrive/Pulpit/TEP/test1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/damia/OneDrive/Pulpit/TEP/test1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

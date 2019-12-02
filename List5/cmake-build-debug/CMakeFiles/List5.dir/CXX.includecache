@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/damia/OneDrive/Pulpit/TEP/List5/CNodeDynamic.hpp
+vector
+-
+
+C:/Users/damia/OneDrive/Pulpit/TEP/List5/CTreeDynamic.hpp
+CNodeDynamic.hpp
+C:/Users/damia/OneDrive/Pulpit/TEP/List5/CNodeDynamic.hpp
+
+C:/Users/damia/OneDrive/Pulpit/TEP/List5/main.cpp
+iostream
+-
+CTreeDynamic.hpp
+C:/Users/damia/OneDrive/Pulpit/TEP/List5/CTreeDynamic.hpp
+CNodeDynamic.hpp
+C:/Users/damia/OneDrive/Pulpit/TEP/List5/CNodeDynamic.hpp
+
