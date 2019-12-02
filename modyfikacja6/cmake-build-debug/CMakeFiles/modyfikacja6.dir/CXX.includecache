@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/damia/OneDrive/Pulpit/TEP/modyfikacja6/main.cpp
+cassert
+-
+iostream
+-
+static.hpp
+C:/Users/damia/OneDrive/Pulpit/TEP/modyfikacja6/static.hpp
+
+C:/Users/damia/OneDrive/Pulpit/TEP/modyfikacja6/static.hpp
+

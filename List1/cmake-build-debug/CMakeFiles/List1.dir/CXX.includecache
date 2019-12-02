@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/damia/OneDrive/Pulpit/TEP/List1/consts.h
+
+C:/Users/damia/OneDrive/Pulpit/TEP/List1/v_alloc_table_add_5.cpp
+iostream
+-
+consts.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List1/consts.h
+
