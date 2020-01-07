@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.h
+iostream
+-
+vector
+-
+atlstr.h
+-
+
+C:/Users/Damian/Desktop/TEP/List9/main.cpp
+iostream
+-
+CMscnProblem.h
+C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.h
+
