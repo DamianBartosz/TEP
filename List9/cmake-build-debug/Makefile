@@ -40,19 +40,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\damia\OneDrive\Pulpit\TEP\List9
+CMAKE_SOURCE_DIR = C:\Users\Damian\Desktop\TEP\List9
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -60,7 +60,7 @@ CMAKE_BINARY_DIR = C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -71,7 +71,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -178,6 +178,33 @@ CRandom.cpp.s:
 	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\CRandom.cpp.s
 .PHONY : CRandom.cpp.s
 
+Problem.obj: Problem.cpp.obj
+
+.PHONY : Problem.obj
+
+# target to build an object file
+Problem.cpp.obj:
+	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\Problem.cpp.obj
+.PHONY : Problem.cpp.obj
+
+Problem.i: Problem.cpp.i
+
+.PHONY : Problem.i
+
+# target to preprocess a source file
+Problem.cpp.i:
+	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\Problem.cpp.i
+.PHONY : Problem.cpp.i
+
+Problem.s: Problem.cpp.s
+
+.PHONY : Problem.s
+
+# target to generate assembly for a file
+Problem.cpp.s:
+	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\Problem.cpp.s
+.PHONY : Problem.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -220,6 +247,9 @@ help:
 	@echo ... CRandom.obj
 	@echo ... CRandom.i
 	@echo ... CRandom.s
+	@echo ... Problem.obj
+	@echo ... Problem.i
+	@echo ... Problem.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

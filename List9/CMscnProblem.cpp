@@ -91,10 +91,19 @@ bool CMscnProblem::bSetNumberOfSuppliers(int iNumberOfSuppliers) {
     }
     delete[] ppdMatrixOfCostsSupplier_Factory;
     delete[] pdArrayOfProductionCapacityOfSuppliers;
+    delete[] pdOneTimeCostOfSuppliers;
+    delete[] pdSolutionMinimalValues;
+    delete[] pdSolutionMaximalValues;
 
     this->iNumberOfSuppliers = iNumberOfSuppliers;
     ppdMatrixOfCostsSupplier_Factory = ppdNewMatrixOfCostsSupplier_Factory;
     pdArrayOfProductionCapacityOfSuppliers = pdNewArrayOfProductionCapacityOfSuppliers;
+    pdOneTimeCostOfSuppliers = new double[iNumberOfSuppliers];
+    pdSolutionMinimalValues = new double[iNumberOfSuppliers * iNumberOfFactories +
+                                         iNumberOfFactories * iNumberOfMagazines + iNumberOfMagazines * iNumberOfShops];
+    pdSolutionMaximalValues = new double[iNumberOfSuppliers * iNumberOfFactories +
+                                         iNumberOfFactories * iNumberOfMagazines + iNumberOfMagazines * iNumberOfShops];
+
     return true;
 }
 
@@ -138,9 +147,20 @@ bool CMscnProblem::bSetNumberOfFactories(int iNumberOfFactories) {
         }
     }
     delete[] pdArrayOfProductionCapacityOfFactories;
+    delete[] pdOneTimeCostOfFactories;
+    delete[] pdSolutionMinimalValues;
+    delete[] pdSolutionMaximalValues;
+
     pdArrayOfProductionCapacityOfFactories = pdNewArrayOfProductionCapacityOfFactories;
 
     this->iNumberOfFactories = iNumberOfFactories;
+
+    pdOneTimeCostOfFactories = new double[iNumberOfFactories];
+    pdSolutionMinimalValues = new double[iNumberOfSuppliers * iNumberOfFactories +
+                                         iNumberOfFactories * iNumberOfMagazines + iNumberOfMagazines * iNumberOfShops];
+    pdSolutionMaximalValues = new double[iNumberOfSuppliers * iNumberOfFactories +
+                                         iNumberOfFactories * iNumberOfMagazines + iNumberOfMagazines * iNumberOfShops];
+
     return true;
 }
 
@@ -184,9 +204,18 @@ bool CMscnProblem::bSetNumberOfMagazines(int iNumberOfMagazines) {
         }
     }
     delete[] pdArrayOfProductionCapacityOfMagazines;
+    delete[] pdOneTimeCostOfMagazines;
+    delete[] pdSolutionMinimalValues;
+    delete[] pdSolutionMaximalValues;
     pdArrayOfProductionCapacityOfMagazines = pdNewArrayOfProductionCapacityOfMagazines;
 
     this->iNumberOfMagazines = iNumberOfMagazines;
+    pdOneTimeCostOfMagazines = new double[iNumberOfMagazines];
+    pdSolutionMinimalValues = new double[iNumberOfSuppliers * iNumberOfFactories +
+                                         iNumberOfFactories * iNumberOfMagazines + iNumberOfMagazines * iNumberOfShops];
+    pdSolutionMaximalValues = new double[iNumberOfSuppliers * iNumberOfFactories +
+                                         iNumberOfFactories * iNumberOfMagazines + iNumberOfMagazines * iNumberOfShops];
+
     return true;
 }
 
@@ -214,9 +243,19 @@ bool CMscnProblem::bSetNumberOfShops(int iNumberOfShops) {
         }
     }
     delete[] pdArrayOfMarketDemandOfShops;
+    delete[] pdIncomeForItemInShops;
+    delete[] pdSolutionMinimalValues;
+    delete[] pdSolutionMaximalValues;
     pdArrayOfMarketDemandOfShops = pdNewArrayOfMarketDemandOfShops;
 
     this->iNumberOfShops = iNumberOfShops;
+
+    pdIncomeForItemInShops = new double[iNumberOfShops];
+    pdSolutionMinimalValues = new double[iNumberOfSuppliers * iNumberOfFactories +
+                                         iNumberOfFactories * iNumberOfMagazines + iNumberOfMagazines * iNumberOfShops];
+    pdSolutionMaximalValues = new double[iNumberOfSuppliers * iNumberOfFactories +
+                                         iNumberOfFactories * iNumberOfMagazines + iNumberOfMagazines * iNumberOfShops];
+
     return true;
 }
 
@@ -736,4 +775,57 @@ void CMscnProblem::destruct() {
 
     }
     bFullyCreated = false;
+}
+
+//======================================================================================
+//========================================List10========================================
+//======================================================================================
+
+void CMscnProblem::vGenerateInstance(int iInstanceSeed) {
+    CRandom pcRand(iInstanceSeed);
+
+    for (int i = 0; i < iNumberOfSuppliers; i++) {
+        for (int j = 0; j < iNumberOfFactories; j++) {
+            ppdMatrixOfCostsSupplier_Factory[i][j] = pcRand.dGetRandomDouble(dMinProductionCost, dMaxProductionCost);
+        }
+
+        pdArrayOfProductionCapacityOfSuppliers[i] = pcRand.dGetRandomDouble(dMinCapacityDemand, dMaxCapacityDemand);
+        pdOneTimeCostOfSuppliers[i] = pcRand.dGetRandomDouble(dMinOneTimeCost, dMaxOneTimeCost);
+
+    }
+
+    for (int i = 0; i < iNumberOfFactories; i++) {
+        for (int j = 0; j < iNumberOfMagazines; j++) {
+            ppdMatrixOfCostsFactory_Magazine[i][j] = pcRand.dGetRandomDouble(dMinProductionCost, dMaxProductionCost);
+        }
+
+        pdArrayOfProductionCapacityOfFactories[i] = pcRand.dGetRandomDouble(dMinCapacityDemand, dMaxCapacityDemand);
+        pdOneTimeCostOfFactories[i] = pcRand.dGetRandomDouble(dMinOneTimeCost, dMaxOneTimeCost);
+
+    }
+
+    for (int i = 0; i < iNumberOfMagazines; i++) {
+        for (int j = 0; j < iNumberOfShops; j++) {
+            ppdMatrixOfCostsMagazine_Shop[i][j] = pcRand.dGetRandomDouble(dMinProductionCost, dMaxProductionCost);
+        }
+
+        pdArrayOfProductionCapacityOfMagazines[i] = pcRand.dGetRandomDouble(dMinCapacityDemand, dMaxCapacityDemand);
+        pdOneTimeCostOfMagazines[i] = pcRand.dGetRandomDouble(dMinOneTimeCost, dMaxOneTimeCost);
+
+    }
+
+    for (int i = 0; i < iNumberOfShops; i++) {
+
+        pdArrayOfMarketDemandOfShops[i] = pcRand.dGetRandomDouble(dMinCapacityDemand, dMaxCapacityDemand);
+        pdIncomeForItemInShops[i] = pcRand.dGetRandomDouble(dMinIncomeForItem, dMaxIncomeForItem);
+
+    }
+
+    int iResultQuantity = iNumberOfSuppliers * iNumberOfFactories + iNumberOfFactories * iNumberOfMagazines +
+                          iNumberOfMagazines * iNumberOfShops;
+
+    for (int i =0; i<iResultQuantity; i++){
+        pdSolutionMinimalValues[i] = dDefaultMinimalValue;
+        pdSolutionMaximalValues[i] = dDefaultMaximalValue;
+    }
 }

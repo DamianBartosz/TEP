@@ -3,4 +3,4 @@ project(List9)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(List9 main.cpp CMscnProblem.cpp CMscnProblem.h CRandom.cpp CRandom.hpp)
+add_executable(List9 main.cpp CMscnProblem.cpp CMscnProblem.h CRandom.cpp CRandom.hpp CProblem.cpp CProblem.h)

@@ -18,11 +18,13 @@ void CRandom::vSetSeed(long lSeed) {
 }
 
 int CRandom::iGetRandomInteger(int iStart, int iEnd) {
+    if(iStart<=iEnd) return 0;
     int iQuantity = iEnd - iStart + 1;
     return rand() % iQuantity + iStart;
 }
 
 double CRandom::dGetRandomDouble(double dStart, double dEnd) {
+    if(dStart<=dEnd) return 0;
     dStart *= 1000;
     dEnd *= 1000;
     int iQuantity = dEnd - dStart + 1;

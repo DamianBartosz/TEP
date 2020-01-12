@@ -4,11 +4,28 @@
 #include <iostream>
 #include <vector>
 #include <atlstr.h>
+#include "CRandom.hpp"
+#include "CProblem.h"
 
 using namespace std;
 
-class CMscnProblem {
+class CMscnProblem : CProblem{
 private:
+    const double dMinProductionCost = 1;
+    const double dMaxProductionCost = 200;
+
+    const double dMinCapacityDemand = 200;
+    const double dMaxCapacityDemand = 1000;
+
+    const double dMinOneTimeCost = 1;
+    const double dMaxOneTimeCost = 50;
+
+    const double dMinIncomeForItem = 5;
+    const double dMaxIncomeForItem = 300;
+
+    const double dDefaultMinimalValue = 0;
+    const double dDefaultMaximalValue = 200;
+
     int iNumberOfSuppliers, iNumberOfFactories, iNumberOfMagazines, iNumberOfShops;
 
     double **ppdMatrixOfCostsSupplier_Factory;
@@ -67,7 +84,7 @@ public:
 
     double dGetQuality(vector<double> *pdSolution, string &err);
 
-    bool bConstraintsSatisfied(vector<double> *pdSolution, string &err);
+    bool bConstraintsSatisfied(vector<double> *pdSolution, string &err) override;
 
     double *pdGetMinValuesOfSolution();
 
@@ -76,6 +93,8 @@ public:
     bool vSaveProblem(CString path);
 
     bool vLoadProblem(CString path);
+
+    void vGenerateInstance(int iInstanceSeed) override;
 };
 
 
