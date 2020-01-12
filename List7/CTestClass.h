@@ -7,6 +7,8 @@ class CTestClass {
 public:
     CTestClass();
 
+    CTestClass(CTestClass *copy);
+
     ~CTestClass();
 
     int iGetV();

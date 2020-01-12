@@ -11,7 +11,7 @@ class CMySmartPointer {
 public:
     CMySmartPointer(T *pcPointer);
 
-    CMySmartPointer(const CMySmartPointer &pcOther);
+    CMySmartPointer(const CMySmartPointer<T> &pcOther);
 
     ~CMySmartPointer();
 
@@ -20,6 +20,12 @@ public:
     T *operator->();
 
     void operator=(CMySmartPointer &pcOther);
+
+    CMySmartPointer<T> copy();
+
+    T *release();
+
+    CMySmartPointer<T> deepCopy();
 
 private:
     CRefCounter *pc_counter;
@@ -74,5 +80,22 @@ void CMySmartPointer<T>::vCopyPointer(const CMySmartPointer &pcOther) {
     pc_counter = pcOther.pc_counter;
     pc_counter->iAdd();
 }//vCopyPointer(const CMySmartPointer &pcOther)
+
+template<typename T>
+CMySmartPointer<T> CMySmartPointer<T>::copy() {
+    CMySmartPointer *thisObject = this;
+    return *thisObject;
+}
+
+template<typename T>
+T *CMySmartPointer<T>::release() {
+    pc_counter->iAdd();
+    return pc_pointer;
+}
+
+template<typename T>
+CMySmartPointer<T> CMySmartPointer<T>::deepCopy() {
+    return CMySmartPointer<T>(new T(pc_pointer));
+}
 
 #endif //LIST7_CMYSMARTPOINTER_H

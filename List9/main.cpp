@@ -1,8 +1,11 @@
 #include <iostream>
 #include "CMscnProblem.h"
+#include "CRandom.hpp"
 
 int main() {
-    CMscnProblem *pcTest = new CMscnProblem("test.txt");
+    CMscnProblem *pcTest = new CMscnProblem();
+
+    cout<<pcTest->vLoadProblem("test.txt")<<endl;
 
     vector<double> *pdTest = new vector<double>();
     pdTest->push_back(1);
@@ -48,6 +51,11 @@ int main() {
     else cout << btestResultSatisfied << endl;
 
     pcTest->vSaveProblem("test2.txt");
+    double *pdMin = pcTest->pdGetMinValuesOfSolution();
+    double *pdMax = pcTest->pdGetMaxValuesOfSolution();
+    for(int i=0; i<3; i++){
+        cout<<pdMin[i]<<" "<<pdMax[i]<<endl;
+    }
 
     delete pcTest;
 }

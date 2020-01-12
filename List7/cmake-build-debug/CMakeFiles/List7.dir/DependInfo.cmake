@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Damian/Desktop/TEP/List7/CRefCounter.cpp" "C:/Users/Damian/Desktop/TEP/List7/cmake-build-debug/CMakeFiles/List7.dir/CRefCounter.cpp.obj"
-  "C:/Users/Damian/Desktop/TEP/List7/CTestClass.cpp" "C:/Users/Damian/Desktop/TEP/List7/cmake-build-debug/CMakeFiles/List7.dir/CTestClass.cpp.obj"
-  "C:/Users/Damian/Desktop/TEP/List7/main.cpp" "C:/Users/Damian/Desktop/TEP/List7/cmake-build-debug/CMakeFiles/List7.dir/main.cpp.obj"
+  "C:/Users/damia/OneDrive/Pulpit/TEP/List7/CRefCounter.cpp" "C:/Users/damia/OneDrive/Pulpit/TEP/List7/cmake-build-debug/CMakeFiles/List7.dir/CRefCounter.cpp.obj"
+  "C:/Users/damia/OneDrive/Pulpit/TEP/List7/CTestClass.cpp" "C:/Users/damia/OneDrive/Pulpit/TEP/List7/cmake-build-debug/CMakeFiles/List7.dir/CTestClass.cpp.obj"
+  "C:/Users/damia/OneDrive/Pulpit/TEP/List7/main.cpp" "C:/Users/damia/OneDrive/Pulpit/TEP/List7/cmake-build-debug/CMakeFiles/List7.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

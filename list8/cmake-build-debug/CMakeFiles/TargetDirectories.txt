@@ -1,0 +1,3 @@
+C:/Users/damia/OneDrive/Pulpit/TEP/list8/cmake-build-debug/CMakeFiles/list8.dir
+C:/Users/damia/OneDrive/Pulpit/TEP/list8/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/damia/OneDrive/Pulpit/TEP/list8/cmake-build-debug/CMakeFiles/rebuild_cache.dir

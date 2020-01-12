@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.cpp" "C:/Users/Damian/Desktop/TEP/List9/cmake-build-debug/CMakeFiles/List9.dir/CMscnProblem.cpp.obj"
-  "C:/Users/Damian/Desktop/TEP/List9/main.cpp" "C:/Users/Damian/Desktop/TEP/List9/cmake-build-debug/CMakeFiles/List9.dir/main.cpp.obj"
+  "C:/Users/damia/OneDrive/Pulpit/TEP/List9/CMscnProblem.cpp" "C:/Users/damia/OneDrive/Pulpit/TEP/List9/cmake-build-debug/CMakeFiles/List9.dir/CMscnProblem.cpp.obj"
+  "C:/Users/damia/OneDrive/Pulpit/TEP/List9/CRandom.cpp" "C:/Users/damia/OneDrive/Pulpit/TEP/List9/cmake-build-debug/CMakeFiles/List9.dir/CRandom.cpp.obj"
+  "C:/Users/damia/OneDrive/Pulpit/TEP/List9/main.cpp" "C:/Users/damia/OneDrive/Pulpit/TEP/List9/cmake-build-debug/CMakeFiles/List9.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

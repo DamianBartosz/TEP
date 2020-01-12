@@ -35,19 +35,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Damian\Desktop\TEP\List7
+CMAKE_SOURCE_DIR = C:\Users\damia\OneDrive\Pulpit\TEP\List7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Damian\Desktop\TEP\List7\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\damia\OneDrive\Pulpit\TEP\List7\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\List7.dir\depend.make
@@ -60,59 +60,59 @@ include CMakeFiles\List7.dir\flags.make
 
 CMakeFiles\List7.dir\main.cpp.obj: CMakeFiles\List7.dir\flags.make
 CMakeFiles\List7.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\Desktop\TEP\List7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/List7.dir/main.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List7.dir\main.cpp.obj /FdCMakeFiles\List7.dir\ /FS -c C:\Users\Damian\Desktop\TEP\List7\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\damia\OneDrive\Pulpit\TEP\List7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/List7.dir/main.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List7.dir\main.cpp.obj /FdCMakeFiles\List7.dir\ /FS -c C:\Users\damia\OneDrive\Pulpit\TEP\List7\main.cpp
 <<
 
 CMakeFiles\List7.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List7.dir/main.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List7.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\Desktop\TEP\List7\main.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List7.dir\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\damia\OneDrive\Pulpit\TEP\List7\main.cpp
 <<
 
 CMakeFiles\List7.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List7.dir/main.cpp.s"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List7.dir\main.cpp.s /c C:\Users\Damian\Desktop\TEP\List7\main.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List7.dir\main.cpp.s /c C:\Users\damia\OneDrive\Pulpit\TEP\List7\main.cpp
 <<
 
 CMakeFiles\List7.dir\CRefCounter.cpp.obj: CMakeFiles\List7.dir\flags.make
 CMakeFiles\List7.dir\CRefCounter.cpp.obj: ..\CRefCounter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\Desktop\TEP\List7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/List7.dir/CRefCounter.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List7.dir\CRefCounter.cpp.obj /FdCMakeFiles\List7.dir\ /FS -c C:\Users\Damian\Desktop\TEP\List7\CRefCounter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\damia\OneDrive\Pulpit\TEP\List7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/List7.dir/CRefCounter.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List7.dir\CRefCounter.cpp.obj /FdCMakeFiles\List7.dir\ /FS -c C:\Users\damia\OneDrive\Pulpit\TEP\List7\CRefCounter.cpp
 <<
 
 CMakeFiles\List7.dir\CRefCounter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List7.dir/CRefCounter.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List7.dir\CRefCounter.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\Desktop\TEP\List7\CRefCounter.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List7.dir\CRefCounter.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\damia\OneDrive\Pulpit\TEP\List7\CRefCounter.cpp
 <<
 
 CMakeFiles\List7.dir\CRefCounter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List7.dir/CRefCounter.cpp.s"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List7.dir\CRefCounter.cpp.s /c C:\Users\Damian\Desktop\TEP\List7\CRefCounter.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List7.dir\CRefCounter.cpp.s /c C:\Users\damia\OneDrive\Pulpit\TEP\List7\CRefCounter.cpp
 <<
 
 CMakeFiles\List7.dir\CTestClass.cpp.obj: CMakeFiles\List7.dir\flags.make
 CMakeFiles\List7.dir\CTestClass.cpp.obj: ..\CTestClass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\Desktop\TEP\List7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/List7.dir/CTestClass.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List7.dir\CTestClass.cpp.obj /FdCMakeFiles\List7.dir\ /FS -c C:\Users\Damian\Desktop\TEP\List7\CTestClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\damia\OneDrive\Pulpit\TEP\List7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/List7.dir/CTestClass.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List7.dir\CTestClass.cpp.obj /FdCMakeFiles\List7.dir\ /FS -c C:\Users\damia\OneDrive\Pulpit\TEP\List7\CTestClass.cpp
 <<
 
 CMakeFiles\List7.dir\CTestClass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List7.dir/CTestClass.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List7.dir\CTestClass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\Desktop\TEP\List7\CTestClass.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List7.dir\CTestClass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\damia\OneDrive\Pulpit\TEP\List7\CTestClass.cpp
 <<
 
 CMakeFiles\List7.dir\CTestClass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List7.dir/CTestClass.cpp.s"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List7.dir\CTestClass.cpp.s /c C:\Users\Damian\Desktop\TEP\List7\CTestClass.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List7.dir\CTestClass.cpp.s /c C:\Users\damia\OneDrive\Pulpit\TEP\List7\CTestClass.cpp
 <<
 
 # Object files for target List7
@@ -129,9 +129,9 @@ List7.exe: CMakeFiles\List7.dir\CRefCounter.cpp.obj
 List7.exe: CMakeFiles\List7.dir\CTestClass.cpp.obj
 List7.exe: CMakeFiles\List7.dir\build.make
 List7.exe: CMakeFiles\List7.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Damian\Desktop\TEP\List7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable List7.exe"
-	"C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\List7.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\List7.dir\objects1.rsp @<<
- /out:List7.exe /implib:List7.lib /pdb:C:\Users\Damian\Desktop\TEP\List7\cmake-build-debug\List7.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\damia\OneDrive\Pulpit\TEP\List7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable List7.exe"
+	"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\List7.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\List7.dir\objects1.rsp @<<
+ /out:List7.exe /implib:List7.lib /pdb:C:\Users\damia\OneDrive\Pulpit\TEP\List7\cmake-build-debug\List7.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -144,6 +144,6 @@ CMakeFiles\List7.dir\clean:
 .PHONY : CMakeFiles\List7.dir\clean
 
 CMakeFiles\List7.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Damian\Desktop\TEP\List7 C:\Users\Damian\Desktop\TEP\List7 C:\Users\Damian\Desktop\TEP\List7\cmake-build-debug C:\Users\Damian\Desktop\TEP\List7\cmake-build-debug C:\Users\Damian\Desktop\TEP\List7\cmake-build-debug\CMakeFiles\List7.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\damia\OneDrive\Pulpit\TEP\List7 C:\Users\damia\OneDrive\Pulpit\TEP\List7 C:\Users\damia\OneDrive\Pulpit\TEP\List7\cmake-build-debug C:\Users\damia\OneDrive\Pulpit\TEP\List7\cmake-build-debug C:\Users\damia\OneDrive\Pulpit\TEP\List7\cmake-build-debug\CMakeFiles\List7.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\List7.dir\depend
 

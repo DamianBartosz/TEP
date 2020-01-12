@@ -410,11 +410,12 @@ bool CMscnProblem::bConstraintsSatisfied(vector<double> *pdSolution, string &err
 
 }
 
-double **CMscnProblem::ppdGetMinAndMaxValuesOfSolution() {
-    double *ppdMinAndMaxValuesOfSolution[2];
-    ppdMinAndMaxValuesOfSolution[0] = pdSolutionMinimalValues;
-    ppdMinAndMaxValuesOfSolution[1] = pdSolutionMaximalValues;
-    return ppdMinAndMaxValuesOfSolution;
+double *CMscnProblem::pdGetMinValuesOfSolution() {
+    return pdSolutionMinimalValues;
+}
+
+double *CMscnProblem::pdGetMaxValuesOfSolution() {
+    return pdSolutionMaximalValues;
 }
 
 bool CMscnProblem::vSaveProblem(CString path) {

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/damia/OneDrive/Pulpit/TEP/list8/CTab.hpp
+
+C:/Users/damia/OneDrive/Pulpit/TEP/list8/CTable.h
+string
+-
+
+C:/Users/damia/OneDrive/Pulpit/TEP/list8/main.cpp
+iostream
+-
+CTab.hpp
+C:/Users/damia/OneDrive/Pulpit/TEP/list8/CTab.hpp
+CTable.h
+C:/Users/damia/OneDrive/Pulpit/TEP/list8/CTable.h
+

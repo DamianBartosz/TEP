@@ -69,7 +69,9 @@ public:
 
     bool bConstraintsSatisfied(vector<double> *pdSolution, string &err);
 
-    double **ppdGetMinAndMaxValuesOfSolution();
+    double *pdGetMinValuesOfSolution();
+
+    double *pdGetMaxValuesOfSolution();
 
     bool vSaveProblem(CString path);
 

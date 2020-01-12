@@ -4,6 +4,10 @@
 CMakeFiles\List9.dir\CMscnProblem.cpp.obj: ..\CMscnProblem.cpp
 CMakeFiles\List9.dir\CMscnProblem.cpp.obj: ..\CMscnProblem.h
 
+CMakeFiles\List9.dir\CRandom.cpp.obj: ..\CRandom.cpp
+CMakeFiles\List9.dir\CRandom.cpp.obj: ..\CRandom.hpp
+
 CMakeFiles\List9.dir\main.cpp.obj: ..\CMscnProblem.h
+CMakeFiles\List9.dir\main.cpp.obj: ..\CRandom.hpp
 CMakeFiles\List9.dir\main.cpp.obj: ..\main.cpp
 

@@ -6,25 +6,21 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Damian/Desktop/TEP/List7/CMySmartPointer.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List7/CMySmartPointer.h
 CRefCounter.h
-C:/Users/Damian/Desktop/TEP/List7/CRefCounter.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List7/CRefCounter.h
 iostream
 -
 
-C:/Users/Damian/Desktop/TEP/List7/CRefCounter.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List7/CRefCounter.h
 
-C:/Users/Damian/Desktop/TEP/List7/CTestClass.cpp
+C:/Users/damia/OneDrive/Pulpit/TEP/List7/CTestClass.h
+
+C:/Users/damia/OneDrive/Pulpit/TEP/List7/main.cpp
 CTestClass.h
-C:/Users/Damian/Desktop/TEP/List7/CTestClass.h
-iostream
--
-
-C:/Users/Damian/Desktop/TEP/List7/CTestClass.h
-
-C:/Users/Damian/Desktop/TEP/List7/main.cpp
-CTestClass.h
-C:/Users/Damian/Desktop/TEP/List7/CTestClass.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List7/CTestClass.h
 CMySmartPointer.h
-C:/Users/Damian/Desktop/TEP/List7/CMySmartPointer.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List7/CMySmartPointer.h
+iostream
+-
 
