@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.cpp
-CMscnProblem.h
-C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.h
-
 C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.h
 iostream
 -
@@ -17,18 +13,18 @@ vector
 -
 atlstr.h
 -
-
-C:/Users/Damian/Desktop/TEP/List9/CRandom.cpp
 CRandom.hpp
 C:/Users/Damian/Desktop/TEP/List9/CRandom.hpp
-iostream
--
 
 C:/Users/Damian/Desktop/TEP/List9/CRandom.hpp
 stdlib.h
 -
 time.h
 -
+
+C:/Users/Damian/Desktop/TEP/List9/CRandomSearch.h
+CMscnProblem.h
+C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.h
 
 C:/Users/Damian/Desktop/TEP/List9/main.cpp
 iostream
@@ -37,4 +33,6 @@ CMscnProblem.h
 C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.h
 CRandom.hpp
 C:/Users/Damian/Desktop/TEP/List9/CRandom.hpp
+CRandomSearch.h
+C:/Users/Damian/Desktop/TEP/List9/CRandomSearch.h
 

@@ -178,32 +178,32 @@ CRandom.cpp.s:
 	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\CRandom.cpp.s
 .PHONY : CRandom.cpp.s
 
-Problem.obj: Problem.cpp.obj
+CRandomSearch.obj: CRandomSearch.cpp.obj
 
-.PHONY : Problem.obj
+.PHONY : CRandomSearch.obj
 
 # target to build an object file
-Problem.cpp.obj:
-	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\Problem.cpp.obj
-.PHONY : Problem.cpp.obj
+CRandomSearch.cpp.obj:
+	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\CRandomSearch.cpp.obj
+.PHONY : CRandomSearch.cpp.obj
 
-Problem.i: Problem.cpp.i
+CRandomSearch.i: CRandomSearch.cpp.i
 
-.PHONY : Problem.i
+.PHONY : CRandomSearch.i
 
 # target to preprocess a source file
-Problem.cpp.i:
-	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\Problem.cpp.i
-.PHONY : Problem.cpp.i
+CRandomSearch.cpp.i:
+	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\CRandomSearch.cpp.i
+.PHONY : CRandomSearch.cpp.i
 
-Problem.s: Problem.cpp.s
+CRandomSearch.s: CRandomSearch.cpp.s
 
-.PHONY : Problem.s
+.PHONY : CRandomSearch.s
 
 # target to generate assembly for a file
-Problem.cpp.s:
-	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\Problem.cpp.s
-.PHONY : Problem.cpp.s
+CRandomSearch.cpp.s:
+	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\CRandomSearch.cpp.s
+.PHONY : CRandomSearch.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -247,9 +247,9 @@ help:
 	@echo ... CRandom.obj
 	@echo ... CRandom.i
 	@echo ... CRandom.s
-	@echo ... Problem.obj
-	@echo ... Problem.i
-	@echo ... Problem.s
+	@echo ... CRandomSearch.obj
+	@echo ... CRandomSearch.i
+	@echo ... CRandomSearch.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

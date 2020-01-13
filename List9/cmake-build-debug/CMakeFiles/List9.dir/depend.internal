@@ -4,10 +4,17 @@
 CMakeFiles/List9.dir/CMscnProblem.cpp.obj
  C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.cpp
  C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.h
+ C:/Users/Damian/Desktop/TEP/List9/CRandom.hpp
 CMakeFiles/List9.dir/CRandom.cpp.obj
  C:/Users/Damian/Desktop/TEP/List9/CRandom.cpp
  C:/Users/Damian/Desktop/TEP/List9/CRandom.hpp
+CMakeFiles/List9.dir/CRandomSearch.cpp.obj
+ C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.h
+ C:/Users/Damian/Desktop/TEP/List9/CRandom.hpp
+ C:/Users/Damian/Desktop/TEP/List9/CRandomSearch.cpp
+ C:/Users/Damian/Desktop/TEP/List9/CRandomSearch.h
 CMakeFiles/List9.dir/main.cpp.obj
  C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.h
  C:/Users/Damian/Desktop/TEP/List9/CRandom.hpp
+ C:/Users/Damian/Desktop/TEP/List9/CRandomSearch.h
  C:/Users/Damian/Desktop/TEP/List9/main.cpp

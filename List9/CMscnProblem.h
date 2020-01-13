@@ -5,17 +5,16 @@
 #include <vector>
 #include <atlstr.h>
 #include "CRandom.hpp"
-#include "CProblem.h"
 
 using namespace std;
 
-class CMscnProblem : CProblem{
+class CMscnProblem{
 private:
     const double dMinProductionCost = 1;
     const double dMaxProductionCost = 200;
 
-    const double dMinCapacityDemand = 200;
-    const double dMaxCapacityDemand = 1000;
+    const double dMinCapacityDemand = 1000;
+    const double dMaxCapacityDemand = 10000;
 
     const double dMinOneTimeCost = 1;
     const double dMaxOneTimeCost = 50;
@@ -23,8 +22,8 @@ private:
     const double dMinIncomeForItem = 5;
     const double dMaxIncomeForItem = 300;
 
-    const double dDefaultMinimalValue = 0;
-    const double dDefaultMaximalValue = 200;
+    const double dDefaultMinimalValue = 1;
+    const double dDefaultMaximalValue = 500;
 
     int iNumberOfSuppliers, iNumberOfFactories, iNumberOfMagazines, iNumberOfShops;
 
@@ -60,6 +59,26 @@ public:
 
     ~CMscnProblem();
 
+    int iGetINumberOfSuppliers() const;
+
+    int iGetINumberOfFactories() const;
+
+    int iGetINumberOfMagazines() const;
+
+    int iGetINumberOfShops() const;
+
+    double *pdGetPdArrayOfProductionCapacityOfSuppliers() const;
+
+    double *pdGetPdArrayOfProductionCapacityOfFactories() const;
+
+    double *pdGetPdArrayOfProductionCapacityOfMagazines() const;
+
+    double *pdGetPdArrayOfMarketDemandOfShops() const;
+
+    double *pdGetPdSolutionMinimalValues() const;
+
+    double *pdGetPdSolutionMaximalValues() const;
+
     bool bSetNumberOfSuppliers(int iNumberOfSuppliers);
 
     bool bSetNumberOfFactories(int iNumberOfFactories);
@@ -84,17 +103,17 @@ public:
 
     double dGetQuality(vector<double> *pdSolution, string &err);
 
-    bool bConstraintsSatisfied(vector<double> *pdSolution, string &err) override;
+    bool bConstraintsSatisfied(vector<double> *pdSolution, string &err);
 
     double *pdGetMinValuesOfSolution();
 
     double *pdGetMaxValuesOfSolution();
 
-    bool vSaveProblem(CString path);
+    bool vSaveProblem(CString path, bool bReadOnly);
 
     bool vLoadProblem(CString path);
 
-    void vGenerateInstance(int iInstanceSeed) override;
+    void vGenerateInstance(int iInstanceSeed);
 };
 
 
