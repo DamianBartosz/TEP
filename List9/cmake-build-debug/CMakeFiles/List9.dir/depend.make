@@ -13,8 +13,18 @@ CMakeFiles\List9.dir\CRandomSearch.cpp.obj: ..\CRandom.hpp
 CMakeFiles\List9.dir\CRandomSearch.cpp.obj: ..\CRandomSearch.cpp
 CMakeFiles\List9.dir\CRandomSearch.cpp.obj: ..\CRandomSearch.h
 
+CMakeFiles\List9.dir\LotteryGenerator.cpp.obj: ..\CRandom.hpp
+CMakeFiles\List9.dir\LotteryGenerator.cpp.obj: ..\LotteryGenerator.cpp
+CMakeFiles\List9.dir\LotteryGenerator.cpp.obj: ..\LotteryGenerator.hpp
+CMakeFiles\List9.dir\LotteryGenerator.cpp.obj: ..\LotteryInstance.hpp
+
+CMakeFiles\List9.dir\LotteryInstance.cpp.obj: ..\LotteryInstance.cpp
+CMakeFiles\List9.dir\LotteryInstance.cpp.obj: ..\LotteryInstance.hpp
+
 CMakeFiles\List9.dir\main.cpp.obj: ..\CMscnProblem.h
 CMakeFiles\List9.dir\main.cpp.obj: ..\CRandom.hpp
 CMakeFiles\List9.dir\main.cpp.obj: ..\CRandomSearch.h
+CMakeFiles\List9.dir\main.cpp.obj: ..\LotteryGenerator.hpp
+CMakeFiles\List9.dir\main.cpp.obj: ..\LotteryInstance.hpp
 CMakeFiles\List9.dir\main.cpp.obj: ..\main.cpp
 

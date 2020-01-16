@@ -3,4 +3,4 @@ project(List9)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(List9 main.cpp CMscnProblem.cpp CMscnProblem.h CRandom.cpp CRandom.hpp CRandomSearch.cpp CRandomSearch.h)
+add_executable(List9 main.cpp CMscnProblem.cpp CMscnProblem.h CRandom.cpp CRandom.hpp CRandomSearch.cpp CRandomSearch.h LotteryGenerator.cpp LotteryGenerator.hpp LotteryInstance.cpp LotteryInstance.hpp)

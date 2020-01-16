@@ -19,6 +19,7 @@ vector<double> *CRandomSearch::pcFindSolution(double dBreakPoint) {
     CRandom cRandom;
     string err = "";
 
+    int iIter =0;
     do {
         pdSolution->clear();
         int iNumberOfSuppliers = pcProblem->iGetINumberOfSuppliers();
@@ -111,9 +112,10 @@ vector<double> *CRandomSearch::pcFindSolution(double dBreakPoint) {
         delete[] pdProductsToFactories;
         delete[] pdProductsToMagazines;
         delete[] pdProductsToShops;
+        iIter++;
 
     } while (!pcProblem->bConstraintsSatisfied(pdSolution, err) ||
-             pcProblem->dGetQuality(pdSolution, err) < dBreakPoint);
+             pcProblem->dGetQuality(pdSolution, err) < dBreakPoint  );
 
     for (int i = 0; i < pdSolution->size(); i++) {
         cout << pdSolution->at(i) << " ";

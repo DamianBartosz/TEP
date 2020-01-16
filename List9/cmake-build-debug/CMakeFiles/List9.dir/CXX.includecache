@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CMscnProblem.h
 iostream
 -
 vector
@@ -14,25 +14,41 @@ vector
 atlstr.h
 -
 CRandom.hpp
-C:/Users/Damian/Desktop/TEP/List9/CRandom.hpp
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CRandom.hpp
 
-C:/Users/Damian/Desktop/TEP/List9/CRandom.hpp
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CRandom.hpp
 stdlib.h
 -
 time.h
 -
 
-C:/Users/Damian/Desktop/TEP/List9/CRandomSearch.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CRandomSearch.h
 CMscnProblem.h
-C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CMscnProblem.h
 
-C:/Users/Damian/Desktop/TEP/List9/main.cpp
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/LotteryGenerator.hpp
+LotteryInstance.hpp
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/LotteryInstance.hpp
+CRandom.hpp
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CRandom.hpp
+
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/LotteryInstance.hpp
+wtypes.h
+-
+xstring
+-
+iostream
+-
+
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/main.cpp
 iostream
 -
 CMscnProblem.h
-C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CMscnProblem.h
 CRandom.hpp
-C:/Users/Damian/Desktop/TEP/List9/CRandom.hpp
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CRandom.hpp
 CRandomSearch.h
-C:/Users/Damian/Desktop/TEP/List9/CRandomSearch.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CRandomSearch.h
+LotteryGenerator.hpp
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/LotteryGenerator.hpp
 
