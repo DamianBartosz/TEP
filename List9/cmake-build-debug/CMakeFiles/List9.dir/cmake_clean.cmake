@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/List9.dir/CDiffEvol.cpp.obj"
+  "CMakeFiles/List9.dir/CIndividual.cpp.obj"
   "CMakeFiles/List9.dir/CMscnProblem.cpp.obj"
   "CMakeFiles/List9.dir/CRandom.cpp.obj"
   "CMakeFiles/List9.dir/CRandomSearch.cpp.obj"

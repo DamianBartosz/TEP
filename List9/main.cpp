@@ -6,22 +6,22 @@
 
 int main() {
     CMscnProblem *pcTest = new CMscnProblem();
+
+//    pcTest->bSetNumberOfMagazines(2);
+//    pcTest->bSetNumberOfShops(4);
 //
-////    pcTest->bSetNumberOfMagazines(2);
-////    pcTest->bSetNumberOfShops(4);
-////
-////    pcTest->vGenerateInstance(time(NULL));
-////
-////    pcTest->vSaveProblem("test2.txt", true);
-//    string err = "";
+//    pcTest->vGenerateInstance(time(NULL));
 //
-//    CRandomSearch cRandomSearch;
-//    cRandomSearch.vSetProblem(pcTest);
-//    vector<double> *pcFoundSolution = cRandomSearch.pcFindSolution(900);
-//    cout<<pcTest->dGetQuality(pcFoundSolution, err)<<endl;
-//
-//
-//    delete pcTest;
+//    pcTest->vSaveProblem("test2.txt", true);
+    string err = "";
+
+    CRandomSearch cRandomSearch;
+    cRandomSearch.vSetProblem(pcTest);
+    vector<double> *pcFoundSolution = cRandomSearch.pcFindSolution(900);
+    cout<<pcTest->dGetQuality(pcFoundSolution, err)<<endl;
+
+
+    delete pcTest;
 
 //    LotteryGenerator lotteryGenerator;
 //    LotteryInstance lotteryInstance = lotteryGenerator.generate("14.01.2020", 12345775);

@@ -20,7 +20,10 @@ public:
 
     void vSetProblem(CMscnProblem *pcProblem);
 
-    vector<double> *pcFindSolution(double dBreakPoint);
+    vector<double> *pcFindSolution(int iIterationLimit);
+
+    void pcCheckSolution(vector<double> *pdSolution, bool bIsSolution);
+
 };
 
 

@@ -40,19 +40,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\damia\OneDrive\Pulpit\TEP\List9
+CMAKE_SOURCE_DIR = C:\Users\Damian\Desktop\TEP\List9
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -60,7 +60,7 @@ CMAKE_BINARY_DIR = C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -71,7 +71,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,60 @@ List9: cmake_check_build_system
 List9\fast:
 	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\build
 .PHONY : List9\fast
+
+CDiffEvol.obj: CDiffEvol.cpp.obj
+
+.PHONY : CDiffEvol.obj
+
+# target to build an object file
+CDiffEvol.cpp.obj:
+	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\CDiffEvol.cpp.obj
+.PHONY : CDiffEvol.cpp.obj
+
+CDiffEvol.i: CDiffEvol.cpp.i
+
+.PHONY : CDiffEvol.i
+
+# target to preprocess a source file
+CDiffEvol.cpp.i:
+	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\CDiffEvol.cpp.i
+.PHONY : CDiffEvol.cpp.i
+
+CDiffEvol.s: CDiffEvol.cpp.s
+
+.PHONY : CDiffEvol.s
+
+# target to generate assembly for a file
+CDiffEvol.cpp.s:
+	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\CDiffEvol.cpp.s
+.PHONY : CDiffEvol.cpp.s
+
+CIndividual.obj: CIndividual.cpp.obj
+
+.PHONY : CIndividual.obj
+
+# target to build an object file
+CIndividual.cpp.obj:
+	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\CIndividual.cpp.obj
+.PHONY : CIndividual.cpp.obj
+
+CIndividual.i: CIndividual.cpp.i
+
+.PHONY : CIndividual.i
+
+# target to preprocess a source file
+CIndividual.cpp.i:
+	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\CIndividual.cpp.i
+.PHONY : CIndividual.cpp.i
+
+CIndividual.s: CIndividual.cpp.s
+
+.PHONY : CIndividual.s
+
+# target to generate assembly for a file
+CIndividual.cpp.s:
+	$(MAKE) -f CMakeFiles\List9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List9.dir\CIndividual.cpp.s
+.PHONY : CIndividual.cpp.s
 
 CMscnProblem.obj: CMscnProblem.cpp.obj
 
@@ -295,6 +349,12 @@ help:
 	@echo ... edit_cache
 	@echo ... List9
 	@echo ... rebuild_cache
+	@echo ... CDiffEvol.obj
+	@echo ... CDiffEvol.i
+	@echo ... CDiffEvol.s
+	@echo ... CIndividual.obj
+	@echo ... CIndividual.i
+	@echo ... CIndividual.s
 	@echo ... CMscnProblem.obj
 	@echo ... CMscnProblem.i
 	@echo ... CMscnProblem.s
