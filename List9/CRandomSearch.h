@@ -22,8 +22,6 @@ public:
 
     vector<double> *pcFindSolution(int iIterationLimit);
 
-    void pcCheckSolution(vector<double> *pdSolution, bool bIsSolution);
-
 };
 
 

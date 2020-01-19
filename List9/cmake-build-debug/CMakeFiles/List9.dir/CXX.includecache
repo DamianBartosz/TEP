@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CDiffEvol.cpp
+CDiffEvol.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CDiffEvol.h
+
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CDiffEvol.h
+CIndividual.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CIndividual.h
+CRandom.hpp
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CRandom.hpp
+
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CIndividual.h
+CMscnProblem.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CMscnProblem.h
+CRandomSearch.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CRandomSearch.h
+
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CMscnProblem.h
 iostream
 -
 vector
@@ -14,19 +30,15 @@ vector
 atlstr.h
 -
 CRandom.hpp
-C:/Users/Damian/Desktop/TEP/List9/CRandom.hpp
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CRandom.hpp
 
-C:/Users/Damian/Desktop/TEP/List9/CRandom.hpp
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CRandom.hpp
 stdlib.h
 -
 time.h
 -
 
-C:/Users/Damian/Desktop/TEP/List9/CRandomSearch.cpp
-CRandomSearch.h
-C:/Users/Damian/Desktop/TEP/List9/CRandomSearch.h
-
-C:/Users/Damian/Desktop/TEP/List9/CRandomSearch.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CRandomSearch.h
 CMscnProblem.h
-C:/Users/Damian/Desktop/TEP/List9/CMscnProblem.h
+C:/Users/damia/OneDrive/Pulpit/TEP/List9/CMscnProblem.h
 

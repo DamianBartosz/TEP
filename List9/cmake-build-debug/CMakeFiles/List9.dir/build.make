@@ -35,19 +35,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Damian\Desktop\TEP\List9
+CMAKE_SOURCE_DIR = C:\Users\damia\OneDrive\Pulpit\TEP\List9
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\List9.dir\depend.make
@@ -60,154 +60,154 @@ include CMakeFiles\List9.dir\flags.make
 
 CMakeFiles\List9.dir\main.cpp.obj: CMakeFiles\List9.dir\flags.make
 CMakeFiles\List9.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/List9.dir/main.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\main.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\Damian\Desktop\TEP\List9\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/List9.dir/main.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\main.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\damia\OneDrive\Pulpit\TEP\List9\main.cpp
 <<
 
 CMakeFiles\List9.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List9.dir/main.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\Desktop\TEP\List9\main.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\damia\OneDrive\Pulpit\TEP\List9\main.cpp
 <<
 
 CMakeFiles\List9.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List9.dir/main.cpp.s"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\main.cpp.s /c C:\Users\Damian\Desktop\TEP\List9\main.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\main.cpp.s /c C:\Users\damia\OneDrive\Pulpit\TEP\List9\main.cpp
 <<
 
 CMakeFiles\List9.dir\CMscnProblem.cpp.obj: CMakeFiles\List9.dir\flags.make
 CMakeFiles\List9.dir\CMscnProblem.cpp.obj: ..\CMscnProblem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/List9.dir/CMscnProblem.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\CMscnProblem.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\Damian\Desktop\TEP\List9\CMscnProblem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/List9.dir/CMscnProblem.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\CMscnProblem.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\damia\OneDrive\Pulpit\TEP\List9\CMscnProblem.cpp
 <<
 
 CMakeFiles\List9.dir\CMscnProblem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List9.dir/CMscnProblem.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\CMscnProblem.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\Desktop\TEP\List9\CMscnProblem.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\CMscnProblem.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\damia\OneDrive\Pulpit\TEP\List9\CMscnProblem.cpp
 <<
 
 CMakeFiles\List9.dir\CMscnProblem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List9.dir/CMscnProblem.cpp.s"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\CMscnProblem.cpp.s /c C:\Users\Damian\Desktop\TEP\List9\CMscnProblem.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\CMscnProblem.cpp.s /c C:\Users\damia\OneDrive\Pulpit\TEP\List9\CMscnProblem.cpp
 <<
 
 CMakeFiles\List9.dir\CRandom.cpp.obj: CMakeFiles\List9.dir\flags.make
 CMakeFiles\List9.dir\CRandom.cpp.obj: ..\CRandom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/List9.dir/CRandom.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\CRandom.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\Damian\Desktop\TEP\List9\CRandom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/List9.dir/CRandom.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\CRandom.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\damia\OneDrive\Pulpit\TEP\List9\CRandom.cpp
 <<
 
 CMakeFiles\List9.dir\CRandom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List9.dir/CRandom.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\CRandom.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\Desktop\TEP\List9\CRandom.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\CRandom.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\damia\OneDrive\Pulpit\TEP\List9\CRandom.cpp
 <<
 
 CMakeFiles\List9.dir\CRandom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List9.dir/CRandom.cpp.s"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\CRandom.cpp.s /c C:\Users\Damian\Desktop\TEP\List9\CRandom.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\CRandom.cpp.s /c C:\Users\damia\OneDrive\Pulpit\TEP\List9\CRandom.cpp
 <<
 
 CMakeFiles\List9.dir\CRandomSearch.cpp.obj: CMakeFiles\List9.dir\flags.make
 CMakeFiles\List9.dir\CRandomSearch.cpp.obj: ..\CRandomSearch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/List9.dir/CRandomSearch.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\CRandomSearch.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\Damian\Desktop\TEP\List9\CRandomSearch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/List9.dir/CRandomSearch.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\CRandomSearch.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\damia\OneDrive\Pulpit\TEP\List9\CRandomSearch.cpp
 <<
 
 CMakeFiles\List9.dir\CRandomSearch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List9.dir/CRandomSearch.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\CRandomSearch.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\Desktop\TEP\List9\CRandomSearch.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\CRandomSearch.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\damia\OneDrive\Pulpit\TEP\List9\CRandomSearch.cpp
 <<
 
 CMakeFiles\List9.dir\CRandomSearch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List9.dir/CRandomSearch.cpp.s"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\CRandomSearch.cpp.s /c C:\Users\Damian\Desktop\TEP\List9\CRandomSearch.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\CRandomSearch.cpp.s /c C:\Users\damia\OneDrive\Pulpit\TEP\List9\CRandomSearch.cpp
 <<
 
 CMakeFiles\List9.dir\LotteryGenerator.cpp.obj: CMakeFiles\List9.dir\flags.make
 CMakeFiles\List9.dir\LotteryGenerator.cpp.obj: ..\LotteryGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/List9.dir/LotteryGenerator.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\LotteryGenerator.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\Damian\Desktop\TEP\List9\LotteryGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/List9.dir/LotteryGenerator.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\LotteryGenerator.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\damia\OneDrive\Pulpit\TEP\List9\LotteryGenerator.cpp
 <<
 
 CMakeFiles\List9.dir\LotteryGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List9.dir/LotteryGenerator.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\LotteryGenerator.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\Desktop\TEP\List9\LotteryGenerator.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\LotteryGenerator.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\damia\OneDrive\Pulpit\TEP\List9\LotteryGenerator.cpp
 <<
 
 CMakeFiles\List9.dir\LotteryGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List9.dir/LotteryGenerator.cpp.s"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\LotteryGenerator.cpp.s /c C:\Users\Damian\Desktop\TEP\List9\LotteryGenerator.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\LotteryGenerator.cpp.s /c C:\Users\damia\OneDrive\Pulpit\TEP\List9\LotteryGenerator.cpp
 <<
 
 CMakeFiles\List9.dir\LotteryInstance.cpp.obj: CMakeFiles\List9.dir\flags.make
 CMakeFiles\List9.dir\LotteryInstance.cpp.obj: ..\LotteryInstance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/List9.dir/LotteryInstance.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\LotteryInstance.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\Damian\Desktop\TEP\List9\LotteryInstance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/List9.dir/LotteryInstance.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\LotteryInstance.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\damia\OneDrive\Pulpit\TEP\List9\LotteryInstance.cpp
 <<
 
 CMakeFiles\List9.dir\LotteryInstance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List9.dir/LotteryInstance.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\LotteryInstance.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\Desktop\TEP\List9\LotteryInstance.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\LotteryInstance.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\damia\OneDrive\Pulpit\TEP\List9\LotteryInstance.cpp
 <<
 
 CMakeFiles\List9.dir\LotteryInstance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List9.dir/LotteryInstance.cpp.s"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\LotteryInstance.cpp.s /c C:\Users\Damian\Desktop\TEP\List9\LotteryInstance.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\LotteryInstance.cpp.s /c C:\Users\damia\OneDrive\Pulpit\TEP\List9\LotteryInstance.cpp
 <<
 
 CMakeFiles\List9.dir\CDiffEvol.cpp.obj: CMakeFiles\List9.dir\flags.make
 CMakeFiles\List9.dir\CDiffEvol.cpp.obj: ..\CDiffEvol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/List9.dir/CDiffEvol.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\CDiffEvol.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\Damian\Desktop\TEP\List9\CDiffEvol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/List9.dir/CDiffEvol.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\CDiffEvol.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\damia\OneDrive\Pulpit\TEP\List9\CDiffEvol.cpp
 <<
 
 CMakeFiles\List9.dir\CDiffEvol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List9.dir/CDiffEvol.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\CDiffEvol.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\Desktop\TEP\List9\CDiffEvol.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\CDiffEvol.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\damia\OneDrive\Pulpit\TEP\List9\CDiffEvol.cpp
 <<
 
 CMakeFiles\List9.dir\CDiffEvol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List9.dir/CDiffEvol.cpp.s"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\CDiffEvol.cpp.s /c C:\Users\Damian\Desktop\TEP\List9\CDiffEvol.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\CDiffEvol.cpp.s /c C:\Users\damia\OneDrive\Pulpit\TEP\List9\CDiffEvol.cpp
 <<
 
 CMakeFiles\List9.dir\CIndividual.cpp.obj: CMakeFiles\List9.dir\flags.make
 CMakeFiles\List9.dir\CIndividual.cpp.obj: ..\CIndividual.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/List9.dir/CIndividual.cpp.obj"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\CIndividual.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\Damian\Desktop\TEP\List9\CIndividual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/List9.dir/CIndividual.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\List9.dir\CIndividual.cpp.obj /FdCMakeFiles\List9.dir\ /FS -c C:\Users\damia\OneDrive\Pulpit\TEP\List9\CIndividual.cpp
 <<
 
 CMakeFiles\List9.dir\CIndividual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/List9.dir/CIndividual.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\CIndividual.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Damian\Desktop\TEP\List9\CIndividual.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\List9.dir\CIndividual.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\damia\OneDrive\Pulpit\TEP\List9\CIndividual.cpp
 <<
 
 CMakeFiles\List9.dir\CIndividual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/List9.dir/CIndividual.cpp.s"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\CIndividual.cpp.s /c C:\Users\Damian\Desktop\TEP\List9\CIndividual.cpp
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\List9.dir\CIndividual.cpp.s /c C:\Users\damia\OneDrive\Pulpit\TEP\List9\CIndividual.cpp
 <<
 
 # Object files for target List9
@@ -234,9 +234,9 @@ List9.exe: CMakeFiles\List9.dir\CDiffEvol.cpp.obj
 List9.exe: CMakeFiles\List9.dir\CIndividual.cpp.obj
 List9.exe: CMakeFiles\List9.dir\build.make
 List9.exe: CMakeFiles\List9.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable List9.exe"
-	"C:\Program Files\JetBrains\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\List9.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\List9.dir\objects1.rsp @<<
- /out:List9.exe /implib:List9.lib /pdb:C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\List9.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable List9.exe"
+	"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\List9.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\List9.dir\objects1.rsp @<<
+ /out:List9.exe /implib:List9.lib /pdb:C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\List9.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -249,6 +249,6 @@ CMakeFiles\List9.dir\clean:
 .PHONY : CMakeFiles\List9.dir\clean
 
 CMakeFiles\List9.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Damian\Desktop\TEP\List9 C:\Users\Damian\Desktop\TEP\List9 C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug C:\Users\Damian\Desktop\TEP\List9\cmake-build-debug\CMakeFiles\List9.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\damia\OneDrive\Pulpit\TEP\List9 C:\Users\damia\OneDrive\Pulpit\TEP\List9 C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug C:\Users\damia\OneDrive\Pulpit\TEP\List9\cmake-build-debug\CMakeFiles\List9.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\List9.dir\depend
 

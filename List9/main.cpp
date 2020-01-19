@@ -3,8 +3,10 @@
 #include "CRandom.hpp"
 #include "CRandomSearch.h"
 #include "LotteryGenerator.hpp"
+#include "CDiffEvol.h"
 
 int main() {
+    srand(time(NULL));
     CMscnProblem *pcTest = new CMscnProblem();
 
 //    pcTest->bSetNumberOfMagazines(2);
@@ -15,14 +17,13 @@ int main() {
 //    pcTest->vSaveProblem("test2.txt", true);
     string err = "";
 
-    CRandomSearch cRandomSearch;
-    cRandomSearch.vSetProblem(pcTest);
-    vector<double> *pcFoundSolution = cRandomSearch.pcFindSolution(900);
-    cout<<pcTest->dGetQuality(pcFoundSolution, err)<<endl;
+    CDiffEvol cDiffEvol = CDiffEvol(pcTest);
+    cDiffEvol.pcStartToEvole(100);
+    vector<double> *pcFoundSolution = cDiffEvol.pdGetBestSolution();
+    cout << pcTest->dGetQuality(pcFoundSolution, err) << endl;
 
 
     delete pcTest;
-
 //    LotteryGenerator lotteryGenerator;
 //    LotteryInstance lotteryInstance = lotteryGenerator.generate("14.01.2020", 12345775);
 //    LotteryInstance lotteryInstance2 = lotteryGenerator.generate("16.01.2020", 124162);

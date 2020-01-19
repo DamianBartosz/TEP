@@ -11,7 +11,6 @@
 
 class CIndividual {
 private:
-    int iNumberOfRatings = 0;
     vector<double> *pdGenotype;
     CMscnProblem *pcProblem;
 
@@ -19,15 +18,16 @@ private:
 
     CIndividual(vector<double> *pdGenotype, CMscnProblem *pcProblem);
 
+    void vRepairGenotype();
+
+    double &at(int i);
+
+    bool equals(CIndividual *cInd);
+
     friend class CDiffEvol;
 
 public:
     virtual ~CIndividual();
-
-    double &operator[](int i);
-
-    void vRepairGenotype();
-
 };
 
 

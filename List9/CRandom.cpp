@@ -4,7 +4,6 @@
 using namespace std;
 
 CRandom::CRandom() {
-    srand(time(NULL));
 }
 
 CRandom::CRandom(long lSeed) {

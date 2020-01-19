@@ -59,25 +59,25 @@ public:
 
     ~CMscnProblem();
 
-    int iGetINumberOfSuppliers() const;
+    int iGetINumberOfSuppliers() ;
 
-    int iGetINumberOfFactories() const;
+    int iGetINumberOfFactories() ;
 
-    int iGetINumberOfMagazines() const;
+    int iGetINumberOfMagazines() ;
 
-    int iGetINumberOfShops() const;
+    int iGetINumberOfShops() ;
 
-    double *pdGetPdArrayOfProductionCapacityOfSuppliers() const;
+    double *pdGetPdArrayOfProductionCapacityOfSuppliers() ;
 
-    double *pdGetPdArrayOfProductionCapacityOfFactories() const;
+    double *pdGetPdArrayOfProductionCapacityOfFactories() ;
 
-    double *pdGetPdArrayOfProductionCapacityOfMagazines() const;
+    double *pdGetPdArrayOfProductionCapacityOfMagazines() ;
 
-    double *pdGetPdArrayOfMarketDemandOfShops() const;
+    double *pdGetPdArrayOfMarketDemandOfShops() ;
 
-    double *pdGetPdSolutionMinimalValues() const;
+    double *pdGetPdSolutionMinimalValues() ;
 
-    double *pdGetPdSolutionMaximalValues() const;
+    double *pdGetPdSolutionMaximalValues() ;
 
     bool bSetNumberOfSuppliers(int iNumberOfSuppliers);
 
@@ -114,6 +114,8 @@ public:
     bool vLoadProblem(CString path);
 
     void vGenerateInstance(int iInstanceSeed);
+
+    int iGetSolutionSize();
 };
 
 

@@ -1,5 +1,6 @@
 #include "CMscnProblem.h"
 
+
 CMscnProblem::CMscnProblem() {
     iNumberOfSuppliers = 1;
     iNumberOfFactories = 1;
@@ -141,7 +142,7 @@ bool CMscnProblem::bSetNumberOfFactories(int iNumberOfFactories) {
     ppdMatrixOfCostsFactory_Magazine = ppdNewMatrixOfCostsFactory_Magazine;
 
     double *pdNewArrayOfProductionCapacityOfFactories = new double[iNumberOfFactories];
-    for (int i = 0; i > this->iNumberOfFactories; i++) {
+    for (int i = 0; i < this->iNumberOfFactories; i++) {
         if (i < iNumberOfFactories) {
             pdNewArrayOfProductionCapacityOfFactories[i] = pdArrayOfProductionCapacityOfFactories[i];
         }
@@ -198,7 +199,7 @@ bool CMscnProblem::bSetNumberOfMagazines(int iNumberOfMagazines) {
     ppdMatrixOfCostsMagazine_Shop = ppdNewMatrixOfCostsMagazine_Shop;
 
     double *pdNewArrayOfProductionCapacityOfMagazines = new double[iNumberOfMagazines];
-    for (int i = 0; i > this->iNumberOfMagazines; i++) {
+    for (int i = 0; i < this->iNumberOfMagazines; i++) {
         if (i < iNumberOfMagazines) {
             pdNewArrayOfProductionCapacityOfMagazines[i] = pdArrayOfProductionCapacityOfMagazines[i];
         }
@@ -237,7 +238,7 @@ bool CMscnProblem::bSetNumberOfShops(int iNumberOfShops) {
     ppdMatrixOfCostsMagazine_Shop = ppdNewMatrixOfCostsMagazine_Shop;
 
     double *pdNewArrayOfMarketDemandOfShops = new double[iNumberOfShops];
-    for (int i = 0; i > this->iNumberOfShops; i++) {
+    for (int i = 0; i < this->iNumberOfShops; i++) {
         if (i < iNumberOfShops) {
             pdNewArrayOfMarketDemandOfShops[i] = pdArrayOfMarketDemandOfShops[i];
         }
@@ -458,32 +459,32 @@ double *CMscnProblem::pdGetMaxValuesOfSolution() {
 }
 
 bool CMscnProblem::vSaveProblem(CString path, bool bReadOnly) {
-    FILE *pfFileToLoad = fopen(path, "w");
+    /*FILE *pfFileToLoad = fopen(path, "w");
     if (!pfFileToLoad) return false;
 
-    if(bReadOnly){
+    if (bReadOnly) {
         fprintf(pfFileToLoad, "Number of suppliers: ");
     }
     fprintf(pfFileToLoad, "%d\n", iNumberOfSuppliers);
 
-    if(bReadOnly){
+    if (bReadOnly) {
         fprintf(pfFileToLoad, "Number of factories: ");
     }
     fprintf(pfFileToLoad, "%d\n", iNumberOfFactories);
 
-    if(bReadOnly){
+    if (bReadOnly) {
         fprintf(pfFileToLoad, "Number of magazines: ");
     }
     fprintf(pfFileToLoad, "%d\n", iNumberOfMagazines);
 
-    if(bReadOnly){
+    if (bReadOnly) {
         fprintf(pfFileToLoad, "Number of shops: ");
     }
     fprintf(pfFileToLoad, "%d\n", iNumberOfShops);
 
     for (int i = 0; i < iNumberOfSuppliers; i++) {
         for (int j = 0; j < iNumberOfFactories; j++) {
-            if(bReadOnly){
+            if (bReadOnly) {
                 fprintf(pfFileToLoad, "Cost supplier->factory[%d][%d]: ", i, j);
             }
             fprintf(pfFileToLoad, "%lf\n", ppdMatrixOfCostsSupplier_Factory[i][i]);
@@ -492,7 +493,7 @@ bool CMscnProblem::vSaveProblem(CString path, bool bReadOnly) {
 
     for (int i = 0; i < iNumberOfFactories; i++) {
         for (int j = 0; j < iNumberOfMagazines; j++) {
-            if(bReadOnly){
+            if (bReadOnly) {
                 fprintf(pfFileToLoad, "Cost factory->magazine[%d][%d]: ", i, j);
             }
             fprintf(pfFileToLoad, "%lf\n", ppdMatrixOfCostsFactory_Magazine[i][i]);
@@ -501,7 +502,7 @@ bool CMscnProblem::vSaveProblem(CString path, bool bReadOnly) {
 
     for (int i = 0; i < iNumberOfMagazines; i++) {
         for (int j = 0; j < iNumberOfShops; j++) {
-            if(bReadOnly){
+            if (bReadOnly) {
                 fprintf(pfFileToLoad, "Cost magazine->shop[%d][%d]: ", i, j);
             }
             fprintf(pfFileToLoad, "%lf\n", ppdMatrixOfCostsMagazine_Shop[i][i]);
@@ -510,28 +511,28 @@ bool CMscnProblem::vSaveProblem(CString path, bool bReadOnly) {
 
 
     for (int i = 0; i < iNumberOfSuppliers; i++) {
-        if(bReadOnly){
+        if (bReadOnly) {
             fprintf(pfFileToLoad, "Production capacity of supplier[%d]: ", i);
         }
         fprintf(pfFileToLoad, "%lf\n", pdArrayOfProductionCapacityOfSuppliers[i]);
     }
 
     for (int i = 0; i < iNumberOfFactories; i++) {
-        if(bReadOnly){
+        if (bReadOnly) {
             fprintf(pfFileToLoad, "Production capacity of factory[%d]: ", i);
         }
         fprintf(pfFileToLoad, "%lf\n", pdArrayOfProductionCapacityOfFactories[i]);
     }
 
     for (int i = 0; i < iNumberOfMagazines; i++) {
-        if(bReadOnly){
+        if (bReadOnly) {
             fprintf(pfFileToLoad, "Production capacity of magazine[%d]: ", i);
         }
         fprintf(pfFileToLoad, "%lf\n", pdArrayOfProductionCapacityOfMagazines[i]);
     }
 
     for (int i = 0; i < iNumberOfShops; i++) {
-        if(bReadOnly){
+        if (bReadOnly) {
             fprintf(pfFileToLoad, "Market demand of shop[%d]: ", i);
         }
         fprintf(pfFileToLoad, "%lf\n", pdArrayOfMarketDemandOfShops[i]);
@@ -539,21 +540,21 @@ bool CMscnProblem::vSaveProblem(CString path, bool bReadOnly) {
 
 
     for (int i = 0; i < iNumberOfSuppliers; i++) {
-        if(bReadOnly){
+        if (bReadOnly) {
             fprintf(pfFileToLoad, "One time cost of supplier[%d]: ", i);
         }
         fprintf(pfFileToLoad, "%lf\n", pdOneTimeCostOfSuppliers[i]);
     }
 
     for (int i = 0; i < iNumberOfFactories; i++) {
-        if(bReadOnly){
+        if (bReadOnly) {
             fprintf(pfFileToLoad, "One time cost of factory[%d]: ", i);
         }
         fprintf(pfFileToLoad, "%lf\n", pdOneTimeCostOfFactories[i]);
     }
 
     for (int i = 0; i < iNumberOfMagazines; i++) {
-        if(bReadOnly){
+        if (bReadOnly) {
             fprintf(pfFileToLoad, "One time cost of magazine[%d]: ", i);
         }
         fprintf(pfFileToLoad, "%lf\n", pdOneTimeCostOfMagazines[i]);
@@ -561,7 +562,7 @@ bool CMscnProblem::vSaveProblem(CString path, bool bReadOnly) {
 
 
     for (int i = 0; i < iNumberOfShops; i++) {
-        if(bReadOnly){
+        if (bReadOnly) {
             fprintf(pfFileToLoad, "Income for item in shop[%d]: ", i);
         }
         fprintf(pfFileToLoad, "%lf\n", pdIncomeForItemInShops[i]);
@@ -573,25 +574,25 @@ bool CMscnProblem::vSaveProblem(CString path, bool bReadOnly) {
 
 
     for (int i = 0; i < iNumberOfElemsInSolution; i++) {
-        if(bReadOnly){
+        if (bReadOnly) {
             fprintf(pfFileToLoad, "Minimal value of solution element[%d]: ", i);
         }
         fprintf(pfFileToLoad, "%lf\n", pdSolutionMinimalValues[i]);
     }
 
     for (int i = 0; i < iNumberOfElemsInSolution; i++) {
-        if(bReadOnly){
+        if (bReadOnly) {
             fprintf(pfFileToLoad, "Maximal value of solution element[%d]: ", i);
         }
         fprintf(pfFileToLoad, "%lf\n", pdSolutionMaximalValues[i]);
     }
 
-    fclose(pfFileToLoad);
+    fclose(pfFileToLoad);*/
     return true;
 }
 
 bool CMscnProblem::vLoadProblem(CString path) {
-    destruct();
+    /*destruct();
 
     FILE *pfFileToLoad = fopen(path, "r");
     if (!pfFileToLoad) return false;
@@ -755,7 +756,7 @@ bool CMscnProblem::vLoadProblem(CString path) {
     }
 
     bFullyCreated = true;
-    fclose(pfFileToLoad);
+    fclose(pfFileToLoad);*/
     return true;
 }
 
@@ -872,48 +873,53 @@ void CMscnProblem::vGenerateInstance(int iInstanceSeed) {
     int iResultQuantity = iNumberOfSuppliers * iNumberOfFactories + iNumberOfFactories * iNumberOfMagazines +
                           iNumberOfMagazines * iNumberOfShops;
 
-    for (int i =0; i<iResultQuantity; i++){
+    for (int i = 0; i < iResultQuantity; i++) {
         pdSolutionMinimalValues[i] = dDefaultMinimalValue;
         pdSolutionMaximalValues[i] = dDefaultMaximalValue;
     }
 }
 
-int CMscnProblem::iGetINumberOfSuppliers() const {
+int CMscnProblem::iGetINumberOfSuppliers() {
     return iNumberOfSuppliers;
 }
 
-int CMscnProblem::iGetINumberOfFactories() const {
+int CMscnProblem::iGetINumberOfFactories() {
     return iNumberOfFactories;
 }
 
-int CMscnProblem::iGetINumberOfMagazines() const {
+int CMscnProblem::iGetINumberOfMagazines() {
     return iNumberOfMagazines;
 }
 
-int CMscnProblem::iGetINumberOfShops() const {
+int CMscnProblem::iGetINumberOfShops() {
     return iNumberOfShops;
 }
 
-double *CMscnProblem::pdGetPdArrayOfProductionCapacityOfSuppliers() const {
+double *CMscnProblem::pdGetPdArrayOfProductionCapacityOfSuppliers() {
     return pdArrayOfProductionCapacityOfSuppliers;
 }
 
-double *CMscnProblem::pdGetPdArrayOfProductionCapacityOfFactories() const {
+double *CMscnProblem::pdGetPdArrayOfProductionCapacityOfFactories() {
     return pdArrayOfProductionCapacityOfFactories;
 }
 
-double *CMscnProblem::pdGetPdArrayOfProductionCapacityOfMagazines() const {
+double *CMscnProblem::pdGetPdArrayOfProductionCapacityOfMagazines() {
     return pdArrayOfProductionCapacityOfMagazines;
 }
 
-double *CMscnProblem::pdGetPdArrayOfMarketDemandOfShops() const {
+double *CMscnProblem::pdGetPdArrayOfMarketDemandOfShops() {
     return pdArrayOfMarketDemandOfShops;
 }
 
-double *CMscnProblem::pdGetPdSolutionMinimalValues() const {
+double *CMscnProblem::pdGetPdSolutionMinimalValues() {
     return pdSolutionMinimalValues;
 }
 
-double *CMscnProblem::pdGetPdSolutionMaximalValues() const {
+double *CMscnProblem::pdGetPdSolutionMaximalValues() {
     return pdSolutionMaximalValues;
+}
+
+int CMscnProblem::iGetSolutionSize() {
+    return iNumberOfSuppliers * iNumberOfFactories + iNumberOfFactories * iNumberOfMagazines +
+           iNumberOfMagazines * iNumberOfShops;
 }

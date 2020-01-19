@@ -6,32 +6,37 @@
 
 CIndividual::CIndividual(CMscnProblem *pcProblem) {
     this->pcProblem = pcProblem;
-    CRandomSearch cRandomSearch;
-    while (!pdGenotype) {
-        pdGenotype = cRandomSearch.pcFindSolution(1);
-    }
+    CRandomSearch cRandomSearch = CRandomSearch(pcProblem);
+    pdGenotype = cRandomSearch.pcFindSolution(1);
 }
 
 CIndividual::CIndividual(vector<double> *pdGenotype, CMscnProblem *pcProblem) {
     this->pdGenotype = pdGenotype;
     this->pcProblem = pcProblem;
     string err;
-    if(!pcProblem->bConstraintsSatisfied(pdGenotype, err)){
+    if (!pcProblem->bConstraintsSatisfied(pdGenotype, err)) {
         vRepairGenotype();
     }
 }
 
 CIndividual::~CIndividual() {
-    delete pcProblem;
     delete pdGenotype;
 }
 
-double &CIndividual::operator[](int i) {
+double &CIndividual::at(int i) {
     return pdGenotype->at(i);
 }
 
 void CIndividual::vRepairGenotype() {
     CRandomSearch cRandomSearch;
-    cRandomSearch.pcCheckSolution(pdGenotype, true); 
+    cRandomSearch.pcFindSolution(1);
+}
+
+bool CIndividual::equals(CIndividual *cInd) {
+    int iGenotypeSize = pcProblem->iGetSolutionSize();
+    for (int i = 0; i < iGenotypeSize; i++) {
+        if (pdGenotype->at(i) != cInd->pdGenotype->at(i)) return false;
+    }
+    return true;
 }
 
