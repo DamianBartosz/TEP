@@ -1,7 +1,3 @@
-//
-// Created by Damian on 14.01.2020.
-//
-
 #ifndef LIST9_LOTTERYGENERATOR_HPP
 #define LIST9_LOTTERYGENERATOR_HPP
 

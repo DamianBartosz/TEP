@@ -30,8 +30,6 @@ void vOpenFileTenTimesInEveryWay(CString sFileName) {
 }
 
 int main() {
-//    CString sFileName = "file.txt";
-//    vOpenFileTenTimesInEveryWay(sFileName);
     Car c;
     try {
         c.move(150);

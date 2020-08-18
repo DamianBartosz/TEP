@@ -1,7 +1,3 @@
-//
-// Created by Damian on 14.01.2020.
-//
-
 #include "LotteryInstance.hpp"
 
 LotteryInstance::LotteryInstance(int *wyniki, string date) {

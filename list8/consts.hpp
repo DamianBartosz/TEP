@@ -1,7 +1,3 @@
-//
-// Created by Damian on 29.10.2019.
-//
-
 #ifndef LIST2_CONSTS_HPP
 #define LIST2_CONSTS_HPP
 

@@ -20,11 +20,6 @@ int main() {
         c_tab_1.vSetValueAt(i, i + 1);
     }
     //end of initialization
-//
-//    c_tab_0 = c_tab_1;
-//    c_tab_1.vSetValueAt(2, 123);
-//    c_tab_0.vPrint();
-//    c_tab_1.vPrint();
 
     (c_tab_0 + c_tab_1).vPrint();
 

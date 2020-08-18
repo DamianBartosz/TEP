@@ -1,7 +1,3 @@
-//
-// Created by Damian on 12.11.2019.
-//
-
 #ifndef LIST4_CAR_HPP
 #define LIST4_CAR_HPP
 

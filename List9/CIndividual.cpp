@@ -1,7 +1,3 @@
-//
-// Created by Damian on 16.01.2020.
-//
-
 #include "CIndividual.h"
 
 CIndividual::CIndividual(CMscnProblem *pcProblem) {

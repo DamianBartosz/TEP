@@ -127,10 +127,6 @@ vector<double> *CRandomSearch::pcFindSolution(int iIterationLimit) {
         iIter++;
     } while (iIter < iIterationLimit);
 
-//    for (int i = 0; i < pdSolution->size(); i++) {
-//        cout << pdSolution->at(i) << " ";
-//    }
-
     delete pdSolution;
     return pdBestSolution;
 }

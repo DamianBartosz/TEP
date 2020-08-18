@@ -1,7 +1,3 @@
-//
-// Created by Damian on 19.11.2019.
-//
-
 #ifndef LIST5_CNODEDYNAMIC_HPP
 #define LIST5_CNODEDYNAMIC_HPP
 

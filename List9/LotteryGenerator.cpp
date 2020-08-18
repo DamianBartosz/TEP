@@ -1,7 +1,3 @@
-//
-// Created by Damian on 14.01.2020.
-//
-
 #include "LotteryGenerator.hpp"
 
 LotteryInstance LotteryGenerator::generate(string date, long seed) {

@@ -1,7 +1,3 @@
-//
-// Created by Damian on 07.12.2019.
-//
-
 #include "CTab.hpp"
 #include <iostream>
 

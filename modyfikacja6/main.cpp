@@ -18,15 +18,6 @@ public:
             return LessThan;
         }else return Equal;
     }
-    //  Twoja implementacja klasy szablonowej PtrComparator<T>
-    //  zapewniająca poprawne działanie programu.
-    //  W szczególności, powinna zostać zdefiniowana metoda
-    //  compare przyjmująca jako argumenty dwa wskaźniki na typ T
-    //  a zwracająca element enumeracji PtrComparator::Result.
-    //
-    //  Pamiętaj o zasadzie "Brzytwy Ockhama"
-    //  znanej też jako KISS (Keep It Simple, Stupid)
-    //  https://en.wikipedia.org/wiki/KISS_principle
 };
 
 class CustomClass {
